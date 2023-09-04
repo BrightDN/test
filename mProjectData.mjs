@@ -50,4 +50,5 @@ function setTutorialData(){
         }
         
     ]
+    return dataSetter
 }
