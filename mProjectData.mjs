@@ -1,7 +1,3 @@
-export default defaultF()
-
-function defaultF(){console.log("Success!")}
-
 export {
     getWebProjectsData,
     getTutorialData
