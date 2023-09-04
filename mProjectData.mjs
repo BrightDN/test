@@ -1,3 +1,5 @@
+export default function(){console.log("Success!")}
+
 export function getWebProjectsData(){
     const getData = setWebProjectData(); 
     return getData
