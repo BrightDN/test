@@ -1,5 +1,4 @@
-import getWebProjectsData from "./mProjectData.mjs";
-import getTutorialData from "./mProjectData.mjs";
+import {getWebProjectsData, getTutorialData} from "./mProjectData";
 
 console.log(getWebProjectsData())
 console.log(getTutorialData())
