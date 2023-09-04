@@ -2,12 +2,17 @@ export default defaultF()
 
 function defaultF(){console.log("Success!")}
 
-export function getWebProjectsData(){
+export {
+    getWebProjectsData,
+    getTutorialData
+}
+
+function getWebProjectsData(){
     const getData = setWebProjectData(); 
     return getData
 }
 
-export function getTutorialData(){
+function getTutorialData(){
     const getData = setTutorialData();
     return getData
 }
