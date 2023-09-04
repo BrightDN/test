@@ -1,5 +1,5 @@
 export default function getWebProjectsData(){
-    this.getData = setWebProjectData();
+    const getData = setWebProjectData(); 
     return getData;
 }
 
