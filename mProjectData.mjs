@@ -1,10 +1,15 @@
 export default function getWebProjectsData(){
     const getData = setWebProjectData(); 
-    return getData;
+    return getData
+}
+
+export default function getTutorialData(){
+    const getData = setTutorialData();
+    return getData
 }
 
 function setWebProjectData(){
-    const dataSetter= [
+    const dataSetter = [
         {
             "type":"webproject",
             "name":"Pokemon Bingo",
@@ -23,7 +28,21 @@ function setWebProjectData(){
             "usedFiles":"null",
             "relatedProjects":"null"
         }
-                    ]
+    ]
     
     return dataSetter;
+}
+
+function setTutorialData(){
+    const dataSetter = [
+        {
+            "type":"tutorialProject",
+            "source":["freeCodeCamp", "https://www.freecodecamp.org"],
+            "certificateLink":"null",
+            "certificateImg":"null",
+            "certificadeRelatedLinks":"null",
+            "certificateName":"null"
+        }
+        
+    ]
 }
