@@ -1,4 +1,6 @@
-export default function(){console.log("Success!")}
+export default defaultF()
+
+function defaultF(){console.log("Success!")}
 
 export function getWebProjectsData(){
     const getData = setWebProjectData(); 
