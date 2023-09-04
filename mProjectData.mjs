@@ -1,9 +1,9 @@
-export default function getWebProjectsData(){
+export function getWebProjectsData(){
     const getData = setWebProjectData(); 
     return getData
 }
 
-export default function getTutorialData(){
+export function getTutorialData(){
     const getData = setTutorialData();
     return getData
 }
